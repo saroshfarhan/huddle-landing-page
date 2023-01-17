@@ -1,5 +1,8 @@
 @import "./scss/reset-and-normalize.scss";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
 
+$headingFont: "Open Sans", sans-serif;
+$bodyFont: "Poppins", sans-serif;
 $violet: hsl(257, 40%, 49%);
 $softMagenta: hsl(300, 69%, 71%);
 
@@ -11,4 +14,5 @@ $softMagenta: hsl(300, 69%, 71%);
   object-fit: cover;
   height: 100vh;
   width: 100vw;
+  font-family: $bodyFont;
 }
