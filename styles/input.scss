@@ -1,0 +1,14 @@
+@import "./scss/reset-and-normalize.scss";
+
+$violet: hsl(257, 40%, 49%);
+$softMagenta: hsl(300, 69%, 71%);
+
+// The custom css starts here
+
+.main-container {
+  background-image: url("../images/bg-desktop.svg");
+  background-color: $violet;
+  object-fit: cover;
+  height: 100vh;
+  width: 100vw;
+}
