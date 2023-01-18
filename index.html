@@ -11,12 +11,54 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>
       Frontend Mentor | Huddle landing page with single introductory section
     </title>
   </head>
   <body>
-    <main id="landing" class="main-container"></main>
+    <main id="landing" class="main-container">
+      <div id="logo" class="logo-container">
+        <img src="./images/logo.svg" alt="huddle logo" />
+      </div>
+      <div id="mid-section" class="mid-section">
+        <img
+          src="./images/illustration-mockups.svg"
+          alt="illustration-mockups"
+        />
+        <div id="info-cta" class="info-cta">
+          <h1>Build The Community Your Fans Will Love</h1>
+          <p>
+            Huddle re-imagines the way we build communities. You have a voice,
+            but so does your audience. Create connections with your users as you
+            engage in genuine discussion.
+          </p>
+          <button id="register" class="register">Register</button>
+        </div>
+      </div>
+      <div id="social-icons" class="social-icons">
+        <a href="/">
+          <div id="fb" class="social-div">
+            <i class="fa-brands fa-facebook-f"></i>
+          </div>
+        </a>
+        <a href="/">
+          <div id="tw" class="social-div">
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+        </a>
+        <a href="/">
+          <div id="ig" class="social-div">
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </a>
+      </div>
+    </main>
   </body>
 </html>
